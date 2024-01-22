@@ -1,0 +1,33 @@
+#graph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#scatterplot {
+  font-family: Arial, sans-serif;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.dot {
+  fill: blue;
+  stroke: black;
+}
+
+#tooltip {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+  pointer-events: none;
+}
